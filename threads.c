@@ -1,3 +1,4 @@
+// https://github.com/diffblue/cbmc/issues/305
 #include <pthread.h>
 #include <assert.h>
 
