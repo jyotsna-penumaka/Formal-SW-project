@@ -60,7 +60,7 @@ cbmc cbmc_memory_leak.c --function f --unwind 100 --bounds-check --pointer-check
 cbmc cbmc_memory_leak_fixed.c --function f --unwind 100 --bounds-check --pointer-check 
 ```
 
-11. Running the malloc bug that cbmc couldnt detect:
+12. Running the malloc bug that cbmc couldnt detect:
 ```
 cbmc cbmc_read_from_uninitialised.c --bounds-check --pointer-check 
 ```
